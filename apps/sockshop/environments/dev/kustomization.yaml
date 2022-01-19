@@ -1,4 +1,4 @@
-namespace: staging
+namespace: dev
 commonLabels:
   app.kubernetes.io/instance: sockshop-dev
 resources:
