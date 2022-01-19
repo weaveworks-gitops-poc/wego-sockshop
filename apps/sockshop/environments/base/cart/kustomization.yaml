@@ -1,0 +1,6 @@
+commonLabels:
+  app.kubernetes.io/name: cart
+  app.kubernetes.io/component: api
+resources:
+  - deployment.yaml
+  - service.yaml

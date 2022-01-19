@@ -1,0 +1,6 @@
+commonLabels:
+  app.kubernetes.io/name: orders
+  app.kubernetes.io/component: api
+resources:
+  - deployment.yaml
+  - service.yaml

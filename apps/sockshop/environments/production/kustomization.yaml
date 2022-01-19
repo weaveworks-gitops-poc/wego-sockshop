@@ -1,0 +1,8 @@
+namespace: production
+commonLabels:
+  app.kubernetes.io/instance: sockshop-production
+images:
+  - name: rabbitmq
+    newTag: rabbitmq:3.6.8-management
+resources:
+  - ../base

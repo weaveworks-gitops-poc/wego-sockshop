@@ -1,0 +1,6 @@
+commonLabels:
+  app.kubernetes.io/name: rabbitmq
+  app.kubernetes.io/component: message-broker
+resources:
+  - deployment.yaml
+  - service.yaml

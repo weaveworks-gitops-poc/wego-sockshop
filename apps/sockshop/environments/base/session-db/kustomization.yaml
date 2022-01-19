@@ -1,0 +1,6 @@
+commonLabels:
+  app.kubernetes.io/name: session-db
+  app.kubernetes.io/component: in-memory-store
+resources:
+  - deployment.yaml
+  - service.yaml

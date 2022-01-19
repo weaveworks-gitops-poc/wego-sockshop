@@ -1,0 +1,4 @@
+commonLabels:
+  app.kubernetes.io/instance: sockshop-staging
+resources:
+  - ../base

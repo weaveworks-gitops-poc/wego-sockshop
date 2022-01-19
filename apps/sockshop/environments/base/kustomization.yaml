@@ -1,0 +1,18 @@
+commonLabels:
+  app.kubernetes.io/part-of: sockshop
+resources:
+  - namespace.yaml
+  - cart
+  - cart-db
+  - catalog
+  - catalog-db
+  - frontend
+  - orders
+  - orders-db
+  - payment
+  - queue-master
+  - rabbitmq
+  - session-db
+  - shipping
+  - user
+  - user-db

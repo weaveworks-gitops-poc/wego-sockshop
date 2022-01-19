@@ -1,0 +1,6 @@
+commonLabels:
+  app.kubernetes.io/name: orders-db
+  app.kubernetes.io/component: database
+resources:
+  - deployment.yaml
+  - service.yaml

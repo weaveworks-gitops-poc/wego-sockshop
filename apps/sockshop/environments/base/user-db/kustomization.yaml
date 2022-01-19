@@ -1,0 +1,6 @@
+commonLabels:
+  app.kubernetes.io/name: user-db
+  app.kubernetes.io/component: database
+resources:
+  - deployment.yaml
+  - service.yaml
