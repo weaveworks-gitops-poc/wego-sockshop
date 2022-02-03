@@ -2,3 +2,10 @@ commonLabels:
   app.kubernetes.io/instance: sockshop-staging
 resources:
   - ../base
+patchesJson6902:
+- target:
+    group: ""
+    version: v1
+    kind: Service
+    name: front-end
+  path: frontend_nodeport.yaml
