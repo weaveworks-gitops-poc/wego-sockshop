@@ -1,0 +1,10 @@
+commonLabels:
+  app.kubernetes.io/part-of: fe
+resources:
+  - ../cart
+  - ../cart-db
+  - ../catalog
+  - ../catalog-db
+  - ../orders
+  - ../orders-db
+  - ../payment

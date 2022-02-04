@@ -1,0 +1,8 @@
+commonLabels:
+  app.kubernetes.io/part-of: be
+resources:
+  - ../queue-master
+  - ../rabbitmq
+  - ../session-db
+  - ../user
+  - ../user-db

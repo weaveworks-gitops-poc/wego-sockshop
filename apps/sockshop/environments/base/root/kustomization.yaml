@@ -1,0 +1,6 @@
+commonLabels:
+  app.kubernetes.io/part-of: sockshop
+resources:
+  - namespace.yaml
+  - ../frontend
+  - ../shipping
